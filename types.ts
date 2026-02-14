@@ -6,7 +6,7 @@ export interface User {
 export interface RewardResponse {
   message?: string;
   error?: string;
-  txHash?: string;
+  claimedAt?: Date;
 }
 
 export interface ChatMessage {
@@ -25,4 +25,14 @@ export interface NFT {
   name: string;
   description?: string;
   image?: string;
+}
+
+export interface TokenBalance {
+  contractAddress: string;
+  contractType: string;
+  balance: string;
+  decimals: number;
+  name: string;
+  symbol: string;
+  logo?: string;
 }

@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow users to read and write their own reward data
+    match /rewards/{address} {
+      allow read: if true;
+      allow write: if request.resource.data.address == address; 
+      // In a real app, you would verify request.auth.uid or use a backend function to verify signatures
+    }
+    
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
