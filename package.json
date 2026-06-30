@@ -15,7 +15,7 @@
     "lucide-react": "0.564.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@0xsequence/connect": "5.4.8",
+    "@0xsequence/connect": "6.0.8",
     "@google/genai": "0.15.0",
     "firebase": "^12.9.0"
   },
