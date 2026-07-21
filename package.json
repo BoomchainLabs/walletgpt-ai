@@ -13,7 +13,7 @@
     "react-router": "6.30.3",
     "@remix-run/router": "1.23.2",
     "lucide-react": "0.564.0",
-    "react": "18.2.0",
+    "react": "18.3.1",
     "react-dom": "18.2.0",
     "@0xsequence/connect": "5.4.8",
     "@google/genai": "0.15.0",
