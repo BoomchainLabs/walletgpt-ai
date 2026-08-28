@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react-router-dom": "6.30.3",
+    "react-router-dom": "7.18.3",
     "react-router": "6.30.3",
     "@remix-run/router": "1.23.2",
     "lucide-react": "0.564.0",
